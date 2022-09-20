@@ -1,0 +1,35 @@
+body {
+    
+}
+.baslik {
+    font-family: 'Rubik Moonrocks', cursive;
+    color: rgb(212, 191, 1);
+    font-size: 45px;
+    text-align: center;
+}
+.sidebar .social-media{
+    position:absolute;
+    bottom: 0;
+    left: 50%;
+    transform:translate(-50%);
+    display: flex;
+  }
+.sidebar .social-media a{
+    display: block;
+    width: 70px;
+    font-size:large;
+    background: black;
+    height: 50px;
+    line-height: 50px;
+    text-align:center;
+    margin: 0 10px;
+    color: #7354bc;
+    border-top-right-radius:5px ;
+    border-top-left-radius: 5px;
+    transition: 0.5s;
+  }
+  .sidebar .social-media a:hover{
+    background: #ffffff;
+    font-size: xx-large;
+  }
+  
